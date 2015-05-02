@@ -1,0 +1,57 @@
+<svg width="210mm" xml="http://www.w3.org/XML/1998/namespace" viewBox="0 0 210 290" height="290mm" version="1.1" xmlns="http://www.w3.org/2000/svg" baseProfile="full">
+  <defs/>
+  <g>
+    <rect height="90" rx="1.9" ry="1.9" style="" width="59" x="16" y="9"/>
+    <rect height="86.2" rx="1" ry="1" style="fill:#ffffff;" width="55.2" x="17.9" y="10.9"/>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:35.0;" text-anchor="middle" x="45.5" y="45.9" xml:space="preserve">1</text>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:25.0;fill:#cc0000;" text-anchor="middle" transform="rotate(180,45.5,68.46)" x="45.5" y="68.46" xml:space="preserve">1</text>
+  </g>
+  <g>
+    <rect height="90" rx="1.9" ry="1.9" style="" width="59" x="75" y="9"/>
+    <rect height="86.2" rx="1" ry="1" style="fill:#ffffff;" width="55.2" x="76.9" y="10.9"/>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:35.0;" text-anchor="middle" x="104.5" y="45.9" xml:space="preserve">2</text>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:25.0;fill:#cc0000;" text-anchor="middle" transform="rotate(180,104.5,68.46)" x="104.5" y="68.46" xml:space="preserve">2</text>
+  </g>
+  <g>
+    <rect height="90" rx="1.9" ry="1.9" style="" width="59" x="134" y="9"/>
+    <rect height="86.2" rx="1" ry="1" style="fill:#ffffff;" width="55.2" x="135.9" y="10.9"/>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:35.0;" text-anchor="middle" x="163.5" y="45.9" xml:space="preserve">4</text>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:25.0;fill:#cc0000;" text-anchor="middle" transform="rotate(180,163.5,68.46)" x="163.5" y="68.46" xml:space="preserve">3</text>
+  </g>
+  <g>
+    <rect height="90" rx="1.9" ry="1.9" style="" width="59" x="16" y="99"/>
+    <rect height="86.2" rx="1" ry="1" style="fill:#ffffff;" width="55.2" x="17.9" y="100.9"/>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:35.0;" text-anchor="middle" x="45.5" y="135.9" xml:space="preserve">8</text>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:25.0;fill:#cc0000;" text-anchor="middle" transform="rotate(180,45.5,158.46)" x="45.5" y="158.46" xml:space="preserve">4</text>
+  </g>
+  <g>
+    <rect height="90" rx="1.9" ry="1.9" style="" width="59" x="75" y="99"/>
+    <rect height="86.2" rx="1" ry="1" style="fill:#ffffff;" width="55.2" x="76.9" y="100.9"/>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:35.0;" text-anchor="middle" x="104.5" y="135.9" xml:space="preserve">16</text>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:25.0;fill:#cc0000;" text-anchor="middle" transform="rotate(180,104.5,158.46)" x="104.5" y="158.46" xml:space="preserve">5</text>
+  </g>
+  <g>
+    <rect height="90" rx="1.9" ry="1.9" style="" width="59" x="134" y="99"/>
+    <rect height="86.2" rx="1" ry="1" style="fill:#ffffff;" width="55.2" x="135.9" y="100.9"/>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:35.0;" text-anchor="middle" x="163.5" y="135.9" xml:space="preserve">32</text>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:25.0;fill:#cc0000;" text-anchor="middle" transform="rotate(180,163.5,158.46)" x="163.5" y="158.46" xml:space="preserve">6</text>
+  </g>
+  <g>
+    <rect height="90" rx="1.9" ry="1.9" style="" width="59" x="16" y="189"/>
+    <rect height="86.2" rx="1" ry="1" style="fill:#ffffff;" width="55.2" x="17.9" y="190.9"/>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:35.0;" text-anchor="middle" x="45.5" y="225.9" xml:space="preserve">64</text>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:25.0;fill:#cc0000;" text-anchor="middle" transform="rotate(180,45.5,248.46)" x="45.5" y="248.46" xml:space="preserve">7</text>
+  </g>
+  <g>
+    <rect height="90" rx="1.9" ry="1.9" style="" width="59" x="75" y="189"/>
+    <rect height="86.2" rx="1" ry="1" style="fill:#ffffff;" width="55.2" x="76.9" y="190.9"/>
+    <text style="font-family:Ume Mincho;font-weight:bold;font-size:35.0;" text-anchor="middle" x="104.5" y="225.9" xml:space="preserve">&#65311;</text>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:25.0;fill:#cc0000;" text-anchor="middle" transform="rotate(180,104.5,248.46)" x="104.5" y="248.46" xml:space="preserve">8</text>
+  </g>
+  <g>
+    <rect height="90" rx="1.9" ry="1.9" style="" width="59" x="134" y="189"/>
+    <rect height="86.2" rx="1" ry="1" style="fill:#ffffff;" width="55.2" x="135.9" y="190.9"/>
+    <text style="font-family:Ume Mincho;font-weight:bold;font-size:35.0;" text-anchor="middle" x="163.5" y="225.9" xml:space="preserve">&#26086;</text>
+    <text style="font-family:Bitstream Charter;font-weight:bold;font-size:25.0;fill:#cc0000;" text-anchor="middle" transform="rotate(180,163.5,248.46)" x="163.5" y="248.46" xml:space="preserve">9</text>
+  </g>
+</svg>
