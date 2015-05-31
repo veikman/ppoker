@@ -1,5 +1,11 @@
 ---
 
+DECK METADATA:
+  GAME: planning poker
+  TITLE: story point and priority deck
+  DEFAULTS:
+    copies: 1
+
 1:
   story: 1
   prio: 1
