@@ -1,0 +1,29 @@
+---
+
+metadata:
+  game: planning poker
+  title: story point and priority deck
+  defaults:
+    copies: 1
+
+data:
+  - story: 1
+    prio: 1
+  - story: 2
+    prio: 2
+  - story: 4
+    prio: 3
+  - story: 8
+    prio: 4
+  - story: 16
+    prio: 5
+  - story: 32
+    prio: 6
+  - story: 64
+    prio: 7
+  - story: ？
+    prio: 8
+  - story: 旦
+    prio: 9
+
+...

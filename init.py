@@ -28,9 +28,9 @@ import string
 import cbg
 
 
-# Typesetting:
+# CBG typesetting:
 
-BITSTREAM = cbg.style.Type(cbg.fonts.BITSTREAM_CHARTER,
+BITSTREAM = cbg.style.Type(cbg.sample.font.BITSTREAM_CHARTER,
                            anchor='middle', weight=cbg.style.BOLD)
 UME = cbg.style.Type(cbg.style.FontFamily('Ume Mincho', 1),
                      anchor='middle', weight=cbg.style.BOLD)
@@ -38,15 +38,16 @@ UME = cbg.style.Type(cbg.style.FontFamily('Ume Mincho', 1),
 
 # CBG subclasses:
 
-class StoryPointsValue(cbg.svg.SVGField):
+class CardPresenter(cbg.svg.SVGCard):
+    size = cbg.sample.size.SHORT_EURO
+
+
+class StoryPointPresenter(cbg.svg.SVGField):
     '''The main field on a card, representing a story point estimate.'''
 
-    style = cbg.style.Wardrobe(cbg.size.FontSize(35, line_height_factor=1),
-                               {cbg.style.MAIN: BITSTREAM},
-                               cbg.wardrobe.COLORSCHEME)
-
-    def __init__(self, parent):
-        super().__init__(parent, self.style)
+    wardrobe = cbg.style.Wardrobe(cbg.size.FontSize(35, line_height_factor=1),
+                                  {cbg.style.MAIN: BITSTREAM},
+                                  cbg.sample.wardrobe.COLORSCHEME)
 
     def front(self, tree):
         '''An override for switching fonts depending on content.
@@ -66,15 +67,13 @@ class StoryPointsValue(cbg.svg.SVGField):
             self.insert_text(tree, str(paragraph))
 
 
-class PriorityValue(cbg.svg.SVGField):
+class PriorityPresenter(cbg.svg.SVGField):
     '''A secondary field representing a priority estimate.'''
 
-    def __init__(self, parent):
-        style = cbg.style.Wardrobe(cbg.size.FontSize(25,
-                                                     line_height_factor=1.05),
-                                   {cbg.style.MAIN: BITSTREAM},
-                                   {cbg.style.MAIN: ('#cc0000',)})
-        super().__init__(parent, style)
+    wardrobe = cbg.style.Wardrobe(cbg.size.FontSize(25,
+                                  line_height_factor=1.05),
+                                  {cbg.style.MAIN: BITSTREAM},
+                                  {cbg.style.MAIN: ('#cc0000',)})
 
     def set_up_paragraph(self):
         '''Print upside down, at the bottom of the card face.'''
@@ -83,14 +82,19 @@ class PriorityValue(cbg.svg.SVGField):
         self.g.cursor.transform.rotate(180)
 
 
-class PlanningPokerCard(cbg.card.HumanReadablePlayingCard):
-    story_content = cbg.elements.CardContentField('story', StoryPointsValue)
-    prio_content = cbg.elements.CardContentField('prio', PriorityValue)
+class StoryPointsField(cbg.elements.CardContentField):
+    key = 'story'
+    presenter_class = StoryPointPresenter
 
-    def process(self):
-        self.dresser = cbg.svg.SVGCard(self, cbg.wardrobe.WARDROBE,
-                                       size=cbg.size.SHORT_EURO)
-        self.populate_fields((self.story_content, self.prio_content))
+
+class PriorityValueField(cbg.elements.CardContentField):
+    key = 'prio'
+    presenter_class = PriorityPresenter
+
+
+class PlanningPokerCard(cbg.card.HumanReadablePlayingCard):
+    field_classes = (StoryPointsField, PriorityValueField)
+    presenter_class = CardPresenter
 
 
 # Main:
