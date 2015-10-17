@@ -4,7 +4,7 @@ This Python program generates an SVG image in A4 format. For convenience, the im
 
 Fonts required to view or print the image: Bitstream Charter, Ume Mincho. These are not provided.
 
-The program implements [CBG](https://github.com/veikman/cbg) v0.6.0, demonstrating a couple of small tricks beyond bare-bones usage.
+The program implements [CBG](https://github.com/veikman/cbg) v0.7.0, demonstrating a couple of small tricks beyond bare-bones usage.
 
 ### About the cards
 

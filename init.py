@@ -38,36 +38,31 @@ UME = cbg.style.Type(cbg.style.FontFamily('Ume Mincho', 1),
 
 # CBG subclasses:
 
-class CardPresenter(cbg.svg.SVGCard):
+class CardPresenter(cbg.svg.presenter.CardFront):
     size = cbg.sample.size.SHORT_EURO
 
 
-class StoryPointPresenter(cbg.svg.SVGField):
+class StoryPointPresenter(cbg.svg.presenter.FieldOfText):
     '''The main field on a card, representing a story point estimate.'''
 
     wardrobe = cbg.style.Wardrobe(cbg.size.FontSize(35, line_height_factor=1),
                                   {cbg.style.MAIN: BITSTREAM},
                                   cbg.sample.wardrobe.COLORSCHEME)
 
-    def front(self, tree):
+    def set_up_paragraph(self):
         '''An override for switching fonts depending on content.
 
         This is needed because non-digit characters are East Asian and
         look too blocky with default handling.
 
         '''
-        self.reset()
-        for paragraph in self.parent:
-            if str(paragraph)[0] in string.digits:
-                self.wardrobe.fonts[cbg.style.MAIN] = BITSTREAM
-            else:
-                self.wardrobe.fonts[cbg.style.MAIN] = UME
-
-            self.set_up_paragraph()
-            self.insert_text(tree, str(paragraph))
+        if str(self.content_source[0])[0] in string.digits:
+            self.wardrobe.fonts[cbg.style.MAIN] = BITSTREAM
+        else:
+            self.wardrobe.fonts[cbg.style.MAIN] = UME
 
 
-class PriorityPresenter(cbg.svg.SVGField):
+class PriorityPresenter(cbg.svg.presenter.FieldOfText):
     '''A secondary field representing a priority estimate.'''
 
     wardrobe = cbg.style.Wardrobe(cbg.size.FontSize(25,
@@ -79,30 +74,29 @@ class PriorityPresenter(cbg.svg.SVGField):
         '''Print upside down, at the bottom of the card face.'''
         self.bottom_up()
         self.line_feed()
-        self.g.cursor.transform.rotate(180)
+        self.cursor.transform.rotate(180)
 
 
-class StoryPointsField(cbg.elements.CardContentField):
+class StoryPointsField(cbg.content.field.Field):
     key = 'story'
-    presenter_class = StoryPointPresenter
+    presenter_class_front = StoryPointPresenter
 
 
-class PriorityValueField(cbg.elements.CardContentField):
+class PriorityValueField(cbg.content.field.Field):
     key = 'prio'
-    presenter_class = PriorityPresenter
+    presenter_class_front = PriorityPresenter
 
 
-class PlanningPokerCard(cbg.card.HumanReadablePlayingCard):
+class PlanningPokerCard(cbg.content.card.Card):
     field_classes = (StoryPointsField, PriorityValueField)
-    presenter_class = CardPresenter
+    presenter_class_front = CardPresenter
 
 
 # Main:
 
 def main():
     app = cbg.app.Application('planning poker', {'ppoker': PlanningPokerCard})
-    app.execute()
-    return 0
+    return app.execute()
 
 
 if __name__ == '__main__':
