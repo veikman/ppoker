@@ -51,7 +51,6 @@ class CardPresenter(cbg.svg.card.CardFront):
 
     '''
     size = cbg.sample.size.SHORT_EURO
-    Wardrobe = cbg.sample.wardrobe.Frame
 
 
 class StoryPointPresenter(cbg.svg.presenter.TextPresenter):

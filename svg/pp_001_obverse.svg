@@ -1,84 +1,92 @@
-<svg baseProfile="full" height="290mm" version="1.1" viewBox="0 0 210 290" width="210mm" xml="http://www.w3.org/XML/1998/namespace" xmlns="http://www.w3.org/2000/svg">
-  <defs/>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" baseProfile="full" height="290mm" version="1.1" viewBox="0 0 210 290" width="210mm">
   <g>
+    <rect height="88" rx="2" ry="2" style="fill:#ffffff" width="57" x="17.0" y="10.0"/>
     <g>
-      <text style="font-family:Bitstream Charter;font-size:35.0;font-weight:bold;text-anchor:middle" x="45.5" y="44.0">1</text>
+      <text style="font-family:Bitstream Charter;font-size:35.0px;font-weight:bold;text-anchor:middle" x="45.5" y="44.0">1</text>
     </g>
     <g>
-      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0;font-weight:bold;text-anchor:middle" transform="rotate(180,45.5,71.5)" x="45.5" y="71.5">1</text>
+      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0px;font-weight:bold;text-anchor:middle" transform="rotate(180,45.5,71.5)" x="45.5" y="71.5">1</text>
     </g>
-    <path d="M 17.0 12.0 Q 17.0 10.0 19.0 10.0 L 72.0 10.0 Q 74.0 10.0 74.0 12.0 L 74.0 96.0 Q 74.0 98.0 72.0 98.0 L 19.0 98.0 Q 17.0 98.0 17.0 96.0 z" style="fill:none;stroke:#000000;stroke-width:2"/>
+    <rect height="88" rx="2" ry="2" style="fill:none;stroke:#000000;stroke-width:2" width="57" x="17.0" y="10.0"/>
   </g>
   <g>
+    <rect height="88" rx="2" ry="2" style="fill:#ffffff" width="57" x="76.0" y="10.0"/>
     <g>
-      <text style="font-family:Bitstream Charter;font-size:35.0;font-weight:bold;text-anchor:middle" x="104.5" y="44.0">2</text>
+      <text style="font-family:Bitstream Charter;font-size:35.0px;font-weight:bold;text-anchor:middle" x="104.5" y="44.0">2</text>
     </g>
     <g>
-      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0;font-weight:bold;text-anchor:middle" transform="rotate(180,104.5,71.5)" x="104.5" y="71.5">2</text>
+      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0px;font-weight:bold;text-anchor:middle" transform="rotate(180,104.5,71.5)" x="104.5" y="71.5">2</text>
     </g>
-    <path d="M 76.0 12.0 Q 76.0 10.0 78.0 10.0 L 131.0 10.0 Q 133.0 10.0 133.0 12.0 L 133.0 96.0 Q 133.0 98.0 131.0 98.0 L 78.0 98.0 Q 76.0 98.0 76.0 96.0 z" style="fill:none;stroke:#000000;stroke-width:2"/>
+    <rect height="88" rx="2" ry="2" style="fill:none;stroke:#000000;stroke-width:2" width="57" x="76.0" y="10.0"/>
   </g>
   <g>
+    <rect height="88" rx="2" ry="2" style="fill:#ffffff" width="57" x="135.0" y="10.0"/>
     <g>
-      <text style="font-family:Bitstream Charter;font-size:35.0;font-weight:bold;text-anchor:middle" x="163.5" y="44.0">4</text>
+      <text style="font-family:Bitstream Charter;font-size:35.0px;font-weight:bold;text-anchor:middle" x="163.5" y="44.0">4</text>
     </g>
     <g>
-      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0;font-weight:bold;text-anchor:middle" transform="rotate(180,163.5,71.5)" x="163.5" y="71.5">3</text>
+      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0px;font-weight:bold;text-anchor:middle" transform="rotate(180,163.5,71.5)" x="163.5" y="71.5">3</text>
     </g>
-    <path d="M 135.0 12.0 Q 135.0 10.0 137.0 10.0 L 190.0 10.0 Q 192.0 10.0 192.0 12.0 L 192.0 96.0 Q 192.0 98.0 190.0 98.0 L 137.0 98.0 Q 135.0 98.0 135.0 96.0 z" style="fill:none;stroke:#000000;stroke-width:2"/>
+    <rect height="88" rx="2" ry="2" style="fill:none;stroke:#000000;stroke-width:2" width="57" x="135.0" y="10.0"/>
   </g>
   <g>
+    <rect height="88" rx="2" ry="2" style="fill:#ffffff" width="57" x="17.0" y="100.0"/>
     <g>
-      <text style="font-family:Bitstream Charter;font-size:35.0;font-weight:bold;text-anchor:middle" x="45.5" y="134.0">8</text>
+      <text style="font-family:Bitstream Charter;font-size:35.0px;font-weight:bold;text-anchor:middle" x="45.5" y="134.0">8</text>
     </g>
     <g>
-      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0;font-weight:bold;text-anchor:middle" transform="rotate(180,45.5,161.5)" x="45.5" y="161.5">4</text>
+      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0px;font-weight:bold;text-anchor:middle" transform="rotate(180,45.5,161.5)" x="45.5" y="161.5">4</text>
     </g>
-    <path d="M 17.0 102.0 Q 17.0 100.0 19.0 100.0 L 72.0 100.0 Q 74.0 100.0 74.0 102.0 L 74.0 186.0 Q 74.0 188.0 72.0 188.0 L 19.0 188.0 Q 17.0 188.0 17.0 186.0 z" style="fill:none;stroke:#000000;stroke-width:2"/>
+    <rect height="88" rx="2" ry="2" style="fill:none;stroke:#000000;stroke-width:2" width="57" x="17.0" y="100.0"/>
   </g>
   <g>
+    <rect height="88" rx="2" ry="2" style="fill:#ffffff" width="57" x="76.0" y="100.0"/>
     <g>
-      <text style="font-family:Bitstream Charter;font-size:35.0;font-weight:bold;text-anchor:middle" x="104.5" y="134.0">16</text>
+      <text style="font-family:Bitstream Charter;font-size:35.0px;font-weight:bold;text-anchor:middle" x="104.5" y="134.0">16</text>
     </g>
     <g>
-      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0;font-weight:bold;text-anchor:middle" transform="rotate(180,104.5,161.5)" x="104.5" y="161.5">5</text>
+      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0px;font-weight:bold;text-anchor:middle" transform="rotate(180,104.5,161.5)" x="104.5" y="161.5">5</text>
     </g>
-    <path d="M 76.0 102.0 Q 76.0 100.0 78.0 100.0 L 131.0 100.0 Q 133.0 100.0 133.0 102.0 L 133.0 186.0 Q 133.0 188.0 131.0 188.0 L 78.0 188.0 Q 76.0 188.0 76.0 186.0 z" style="fill:none;stroke:#000000;stroke-width:2"/>
+    <rect height="88" rx="2" ry="2" style="fill:none;stroke:#000000;stroke-width:2" width="57" x="76.0" y="100.0"/>
   </g>
   <g>
+    <rect height="88" rx="2" ry="2" style="fill:#ffffff" width="57" x="135.0" y="100.0"/>
     <g>
-      <text style="font-family:Bitstream Charter;font-size:35.0;font-weight:bold;text-anchor:middle" x="163.5" y="134.0">32</text>
+      <text style="font-family:Bitstream Charter;font-size:35.0px;font-weight:bold;text-anchor:middle" x="163.5" y="134.0">32</text>
     </g>
     <g>
-      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0;font-weight:bold;text-anchor:middle" transform="rotate(180,163.5,161.5)" x="163.5" y="161.5">6</text>
+      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0px;font-weight:bold;text-anchor:middle" transform="rotate(180,163.5,161.5)" x="163.5" y="161.5">6</text>
     </g>
-    <path d="M 135.0 102.0 Q 135.0 100.0 137.0 100.0 L 190.0 100.0 Q 192.0 100.0 192.0 102.0 L 192.0 186.0 Q 192.0 188.0 190.0 188.0 L 137.0 188.0 Q 135.0 188.0 135.0 186.0 z" style="fill:none;stroke:#000000;stroke-width:2"/>
+    <rect height="88" rx="2" ry="2" style="fill:none;stroke:#000000;stroke-width:2" width="57" x="135.0" y="100.0"/>
   </g>
   <g>
+    <rect height="88" rx="2" ry="2" style="fill:#ffffff" width="57" x="17.0" y="190.0"/>
     <g>
-      <text style="font-family:Bitstream Charter;font-size:35.0;font-weight:bold;text-anchor:middle" x="45.5" y="224.0">64</text>
+      <text style="font-family:Bitstream Charter;font-size:35.0px;font-weight:bold;text-anchor:middle" x="45.5" y="224.0">64</text>
     </g>
     <g>
-      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0;font-weight:bold;text-anchor:middle" transform="rotate(180,45.5,251.5)" x="45.5" y="251.5">7</text>
+      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0px;font-weight:bold;text-anchor:middle" transform="rotate(180,45.5,251.5)" x="45.5" y="251.5">7</text>
     </g>
-    <path d="M 17.0 192.0 Q 17.0 190.0 19.0 190.0 L 72.0 190.0 Q 74.0 190.0 74.0 192.0 L 74.0 276.0 Q 74.0 278.0 72.0 278.0 L 19.0 278.0 Q 17.0 278.0 17.0 276.0 z" style="fill:none;stroke:#000000;stroke-width:2"/>
+    <rect height="88" rx="2" ry="2" style="fill:none;stroke:#000000;stroke-width:2" width="57" x="17.0" y="190.0"/>
   </g>
   <g>
+    <rect height="88" rx="2" ry="2" style="fill:#ffffff" width="57" x="76.0" y="190.0"/>
     <g>
-      <text style="font-family:Ume Mincho;font-size:35.0;font-weight:bold;text-anchor:middle" x="104.5" y="224.0">&#65311;</text>
+      <text style="font-family:Ume Mincho;font-size:35.0px;font-weight:bold;text-anchor:middle" x="104.5" y="224.0">&#65311;</text>
     </g>
     <g>
-      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0;font-weight:bold;text-anchor:middle" transform="rotate(180,104.5,251.5)" x="104.5" y="251.5">8</text>
+      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0px;font-weight:bold;text-anchor:middle" transform="rotate(180,104.5,251.5)" x="104.5" y="251.5">8</text>
     </g>
-    <path d="M 76.0 192.0 Q 76.0 190.0 78.0 190.0 L 131.0 190.0 Q 133.0 190.0 133.0 192.0 L 133.0 276.0 Q 133.0 278.0 131.0 278.0 L 78.0 278.0 Q 76.0 278.0 76.0 276.0 z" style="fill:none;stroke:#000000;stroke-width:2"/>
+    <rect height="88" rx="2" ry="2" style="fill:none;stroke:#000000;stroke-width:2" width="57" x="76.0" y="190.0"/>
   </g>
   <g>
+    <rect height="88" rx="2" ry="2" style="fill:#ffffff" width="57" x="135.0" y="190.0"/>
     <g>
-      <text style="font-family:Ume Mincho;font-size:35.0;font-weight:bold;text-anchor:middle" x="163.5" y="224.0">&#26086;</text>
+      <text style="font-family:Ume Mincho;font-size:35.0px;font-weight:bold;text-anchor:middle" x="163.5" y="224.0">&#26086;</text>
     </g>
     <g>
-      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0;font-weight:bold;text-anchor:middle" transform="rotate(180,163.5,251.5)" x="163.5" y="251.5">9</text>
+      <text style="fill:#cc0000;font-family:Bitstream Charter;font-size:25.0px;font-weight:bold;text-anchor:middle" transform="rotate(180,163.5,251.5)" x="163.5" y="251.5">9</text>
     </g>
-    <path d="M 135.0 192.0 Q 135.0 190.0 137.0 190.0 L 190.0 190.0 Q 192.0 190.0 192.0 192.0 L 192.0 276.0 Q 192.0 278.0 190.0 278.0 L 137.0 278.0 Q 135.0 278.0 135.0 276.0 z" style="fill:none;stroke:#000000;stroke-width:2"/>
+    <rect height="88" rx="2" ry="2" style="fill:none;stroke:#000000;stroke-width:2" width="57" x="135.0" y="190.0"/>
   </g>
 </svg>

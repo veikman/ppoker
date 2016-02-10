@@ -1,10 +1,10 @@
 ## Planning poker SVG generator
 
-This Python program generates an SVG image in A4 format. For convenience, the image is included under "svg" in the Git repo. Be advised that as of 2015-05, github's SVG renderer has an unorthodox interpretation of the image, so a download is recommended.
+This Python program generates an SVG image in A4 format. For convenience, the image is included under "svg" in the Git repo. Be advised that as of 2016-02, github's SVG renderer has an unorthodox interpretation of font sizes in the image, so a download is recommended.
 
 Fonts required to view or print the image: Bitstream Charter, Ume Mincho. These are not provided.
 
-The program implements [CBG](https://github.com/veikman/cbg) v0.8.0, demonstrating a couple of small tricks beyond bare-bones usage.
+The program implements [CBG](https://github.com/veikman/cbg) v0.9.0, demonstrating a couple of small tricks beyond bare-bones usage.
 
 ### About the cards
 
