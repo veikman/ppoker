@@ -1,6 +1,6 @@
 ## Planning poker SVG generator
 
-This Python program generates an SVG image in A4 format. For convenience, the image is included under "svg" in the Git repo. Be advised that as of 2016-02, github's SVG renderer has an unorthodox interpretation of font sizes in the image, so a download is recommended.
+This Python program generates an SVG image in A4 format. For convenience, the image is included under "svg" in the Git repo.
 
 Fonts required to view or print the image: Bitstream Charter, Ume Mincho. These are not provided.
 
